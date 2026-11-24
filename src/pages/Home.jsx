@@ -26,7 +26,7 @@ export function Home() {
                       color="#FF2724"
                       align='left'
                       padding='100'
-                      image='url(../../public/kamuro.png)'
+                      image='url(/kamuro.png)'
                       imagePos='top'
                 />
             </Link>
@@ -37,7 +37,7 @@ export function Home() {
                       color="#057AFF"
                       align='right'
                       padding='100'
-                      image='url(../../public/social.png)'
+                      image='url(/social.png)'
                       imagePos='bottom'
                 />
             </Link>

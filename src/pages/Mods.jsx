@@ -26,7 +26,7 @@ export function Mods() {
                       activeColor="BurlyWood "
                       align='left'
                       padding='100'
-                      image='url(../../public/mods.png)'
+                      image='url(/mods.png)'
                       imagePos='top'
                 />
             </Link>
@@ -39,7 +39,7 @@ export function Mods() {
                       activeColor="Khaki"
                       align='right'
                       padding='100'
-                      image='url(../../public/gamebanana.png)'
+                      image='url(/gamebanana.png)'
                       imagePos='center'
                 />
             </Link>
@@ -52,7 +52,7 @@ export function Mods() {
                       activeColor="white"
                       align='center'
                       padding='30'
-                      image='url(../../public/e1m1.png)'
+                      image='url(/e1m1.png)'
                       imagePos='center'
                 />
             </Link>
