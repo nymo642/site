@@ -26,7 +26,7 @@ export function Social() {
 
                     align='left'
                     padding='100'
-                    image='url(/twitter.png)'
+                    image='url(/site/twitter.png)'
                     imagePos='top'
                 />
             </Link>
@@ -38,7 +38,7 @@ export function Social() {
                     color='darkred'
                     align='right'
                     padding='100'
-                    image='url(/youtube.png)'
+                    image='url(/site/youtube.png)'
                     imagePos='center'
                 />
             </Link>
@@ -50,7 +50,7 @@ export function Social() {
                     color='#6D38FF'
                     align='center'
                     padding='30'
-                    image='url(/pukeko.png)'
+                    image='url(/site/pukeko.png)'
                     imagePos='center'
                 />
             </Link>
