@@ -1,0 +1,54 @@
+.pane {
+    /*background-image: url('../../public/gamebanana.png');*/
+    background-image: var(--back-image);
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
+    background-position: var(--back-image-pos);
+
+    /* adjust horozontal image sizing to fit on mobile devices*/
+    background-size: cover;
+
+    background-color: var(--back-color);
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    padding-bottom: var(--vert-padding, 40px);
+    padding-top: var(--vert-padding, 40px);
+
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.pane h2 {
+    font-size: 32px;
+}
+
+.pane:hover {
+    opacity: 0.7;
+}
+
+.paneContent {
+    filter: drop-shadow(2px 2px 1px black);
+
+}
+
+.iconRight {
+    float: right;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 75px
+}
+
+.iconLeft {
+    float: left;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 75px
+}

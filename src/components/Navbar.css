@@ -1,0 +1,32 @@
+.navbar {
+    overflow: hidden;
+
+    /*Sticky - Dynamic: Acts as relative until scrolled past threshold, switches to fixed-esque behaviour*/
+    position: sticky;
+
+    top: 0;
+    width: 100%;
+
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #373949;
+    box-sizing: border-box;
+
+ }
+
+.navbutton {
+    background-color: #51536b;
+    padding: 15px;
+    border: none;
+    float: center;
+    width: 33%;
+}
+
+.navbutton:hover {
+    background-color: gray;
+    color: black;
+}
+
+.navbutton:active {
+    background-color: lightgray;
+}
