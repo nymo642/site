@@ -29,7 +29,7 @@
 }
 
 .paneContent {
-    filter: drop-shadow(2px 2px 1px black);
+    filter: drop-shadow(1px 1px 1px black) drop-shadow(-1px -1px 1px black) drop-shadow(0px 0px 1px black);
 
 }
 
